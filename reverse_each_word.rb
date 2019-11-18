@@ -2,7 +2,8 @@ require 'pry'
 
 def reverse_each_word(string)
   sentence1 = string.split(" ") #=> splits string into seperate parts and stores it as an array
-  string.split.each(|sentence|) #=> enumerator each
+  string.split.each(|sentence| sentence ) #=> enumerator each string
+  string.reverse_each
   binding.pry
 end
 
