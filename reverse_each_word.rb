@@ -7,9 +7,6 @@ def reverse_each_word(string)
 end
 
 
-
-
-
 # def reverse_each_word(string)
 #   split_string = string.split.collect{|word|word.reverse}
 #   #binding.pry
@@ -17,8 +14,6 @@ end
 #   string.size.times { reversed << split_string.pop }
 #   reversed.join
 # end
-
-
 
 
 
