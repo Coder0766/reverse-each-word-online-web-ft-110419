@@ -10,17 +10,6 @@ end
 
 
 
-
-
-# x = 10  
-# 5.times do |y; x|  
-#   x = y  
-#   puts "x inside the block: #{x}"  
-# end  
-# puts "x outside the block: #{x}"  
-
-
-
 # def reverse_each_word(string)
 #   split_string = string.split.collect{|word|word.reverse}
 #   #binding.pry
