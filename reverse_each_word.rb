@@ -1,14 +1,11 @@
 require 'pry'
 
 def reverse_each_word(string)
-    string.split.each_reverse
+    string.split.each_reverse do |sentence1|
+    sentence1.reverse
     binding.pry
+    end
 end
-
-
-
-
-
 
 
 # def reverse_each_word(string)
@@ -20,7 +17,6 @@ end
 # end
 
 
-
 # def reverse_each_word(string)
 #   split_string = string.split.collect{|word|word.reverse}
 #   #binding.pry
@@ -28,7 +24,6 @@ end
 #   string.size.times { reversed << split_string.pop }
 #   reversed.join
 # end
-
 
 
 # #reverse_each_word
