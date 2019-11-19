@@ -2,9 +2,9 @@ require 'pry'
 
 def reverse_each_word(string)
     string.split.each do |sentence1|
-    binding.pry
+    #binding.pry
     sentence1.reverse
-    binding.pry
+    #binding.pry
     end
 end
 
