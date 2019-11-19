@@ -17,7 +17,7 @@ def reverse_each_word(string)
     array << sentence1.reverse 
     #binding.pry
     end
-    #array.join(" ")
+    array.join(" ")
 end
 
 
