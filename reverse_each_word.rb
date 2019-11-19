@@ -4,6 +4,7 @@ def reverse_each_word(string)
     string.split.each do |sentence1|
     #binding.pry
     sentence1.reverse
+    sentence1 << array.new
     #binding.pry
     end
 end
