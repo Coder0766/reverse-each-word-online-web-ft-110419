@@ -11,6 +11,8 @@ def reverse_each_word(string)
 end
 
 
+
+
 # def reverse_each_word(string)
 #   string.split(" ") #=> splits string into seperate parts and stores it as an array
 #   string.split.each do |sentence1) #=> enumerator each string
